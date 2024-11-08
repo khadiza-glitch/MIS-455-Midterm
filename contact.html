@@ -1,11 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="contact.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
 </head>
+
 <body>
-    
+  <nav class="navbar">
+    <div class="navdiv">
+      <div class="logo"><a href="#">ReVibe By Khadiza</a> </div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="product.html">Product</a></li>
+        <li><a href="contact.html">Contact</a></li>
+
+
+      </ul>
+    </div>
+  </nav>
+  <form action="#" method="post">
+    <h1>Contact Us</h1>
+    <p>Please take a moment to get in touch, we will get back to you shortly.</p>
+
+    <div class="column">
+      <label for="the-name">Your Name</label>
+      <input type="text" name="name" id="the-name">
+
+      <label for="the-email">Email Address</label>
+      <input type="email" name="email" id="the-email">
+
+      <label for="the-phone">Phone Number</label>
+      <input type="tel" name="phone" id="the-phone">
+
+      <label for="the-reason">How can we help you?</label>
+      <select name="reason" id="the-reason">
+        <option value="">Choose one</option>
+        <option value="web">I need web design services</option>
+        <option value="video">I need you to produce a video</option>
+        <option value="3d">I need 3D polygon things</option>
+      </select>
+    </div>
+    <div class="column">
+      <label for="the-message">Message</label>
+      <textarea name="message" id="the-message"></textarea>
+      <label>
+        <input type="checkbox" name="newsletter" value="yes"> Join our mailing list?
+      </label>
+      <input type="submit" value="Send Message">
+    </div>
+  </form>
+  <footer>
+    <div class="footer-content">
+      <h3>ReVibe By Khadizas</h3>
+      <p id="footer_about">Revibe by Khadiza is a contemporary clothing brand that blends modern aesthetics with a
+        strong emphasis on sustainability and individuality. Founded by Khadiza, the brand aims to "revibe" the fashion
+        experience by offering high-quality, eco-friendly clothing that resonates with those who value style, comfort,
+        and ethical choices. Each piece from Revibe by Khadiza is thoughtfully crafted, focusing on natural materials,
+        sustainable processes, and timeless designs that align with a responsible lifestyle. With its chic and versatile
+        styles, Revibe by Khadiza appeals to fashion-conscious individuals who seek a fresh, responsible approach to
+        personal style, merging elegance with an eco-friendly ethos.</p>
+      <ul class="socials">
+        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+      </ul>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 ReVibe By Khadiza. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Contact Us</a>
+      </div>
+    </div>
+  </footer>
+
 </body>
+
 </html>
