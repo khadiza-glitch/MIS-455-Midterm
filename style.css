@@ -113,8 +113,6 @@ footer {
 #footer_about{
     padding: 0px 40px;
 }
-
-
 .container-home {
     display: flex;
     align-items: center;
@@ -191,8 +189,7 @@ footer {
     color: #1f2937; 
     margin-top: 40px;
   }
-  
-  /* Category Section */
+ 
   .category-section {
     max-width: 1200px;
     margin: 0 auto;
@@ -218,7 +215,6 @@ footer {
     transform: scale(1.1);
   }
   
-  /* Best Selling Section */
   .best-selling-section {
     max-width: 1200px;
     margin: 0 auto;
@@ -231,8 +227,7 @@ footer {
     font-size: 1rem;
     margin-bottom: 1.5rem;
   }
-  
-  
+
   .product-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -348,3 +343,49 @@ footer {
     margin-top: 50pxs;
 
   }
+  .coupon {
+    
+    width: 80%;
+    border-radius: 15px; 
+    margin: 0 auto; 
+    max-width: 900px;
+    margin-bottom: 60px;
+  }
+  
+  .container {
+    padding:  16px;
+    background-color: #f1f1f1;
+   
+  }
+  
+  .promo {
+    background: #ccc;
+    padding: 3px;
+  }
+  
+  .expire {
+    color: red;
+  }
+  .discountfood{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 50px ;
+  }
+  button {
+    background-color: rgb(69, 78, 152);
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 90px;
+    color: white;
+}
+.dply-flex{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.image-height{
+    height: 500px;
+    width: 700px;
+}
